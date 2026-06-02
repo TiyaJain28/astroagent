@@ -1,0 +1,141 @@
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Frontend (React/Vite)
+# =========================
+node_modules/
+frontend/node_modules/
+
+dist/
+frontend/dist/
+
+dist-ssr/
+.vite/
+
+*.local
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.py[cod]
+
+# Virtual Environments
+venv/
+backend/venv/
+frontend/venv/
+.venv/
+env/
+
+# Environment Variables
+.env
+.env.local
+.env.*
+
+# Python Build Files
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# =========================
+# FastAPI
+# =========================
+*.sqlite3
+*.db
+
+# =========================
+# RAG / Vector Store
+# =========================
+*.faiss
+*.index
+*.npy
+*.npz
+*.pkl
+
+app/rag/index/
+app/rag/vector_index/
+app/rag/faiss_index/
+
+# =========================
+# Memory & Cache
+# =========================
+data/user_profiles.json
+data/cache.json
+
+*.cache
+
+# =========================
+# Secrets
+# =========================
+google_api_key.txt
+credentials.json
+secrets.json
+service_account.json
+
+*.pem
+*.key
+
+# =========================
+# Deployment
+# =========================
+.vercel/
+.render/
+
+# =========================
+# IDEs
+# =========================
+.vscode/*
+!.vscode/extensions.json
+
+.idea/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Windows
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =========================
+# LangGraph / LangSmith
+# =========================
+.langgraph/
+.langsmith/
+
+# =========================
+# Temporary Files
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# Generated Caches
+# =========================
+.cache/
