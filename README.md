@@ -71,7 +71,7 @@ Benefits:
 * Lower latency
 
 ---
-### 📚 Retrieval-Augmented Generation (RAG)
+### Retrieval-Augmented Generation (RAG)
 
 AstroAgent uses a curated astrology knowledge base to ground interpretations.
 
