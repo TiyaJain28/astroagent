@@ -22,7 +22,7 @@ The goal was to create an agentic astrology assistant that:
 
 ## Features
 
-### 🔮 Birth Chart Analysis
+###  Birth Chart Analysis
 
 Uses Swiss Ephemeris to calculate:
 
@@ -41,14 +41,14 @@ Planetary positions are computed from real astronomical calculations rather than
 
 ---
 
-### 🌙 Daily Transit Analysis
+### Daily Transit Analysis
 
 Computes current planetary positions and generates transit-based readings in relation to the user's natal chart.
 
 ---
 
 
-### 🧠 Persistent Memory
+### Persistent Memory
 
 Birth details are stored locally and automatically reused across sessions.
 
@@ -60,7 +60,7 @@ Users do not need to repeatedly enter:
 
 ---
 
-### ⚡ Chart Caching
+### Chart Caching
 
 Previously computed charts are cached to avoid repeated calculations.
 
@@ -344,13 +344,16 @@ http://localhost:5173
 ```
 
 ---
+<img width="1890" height="956" alt="image" src="https://github.com/user-attachments/assets/6e47ebb6-a579-4e6c-a904-d93a76b46e62" />
+<img width="1243" height="894" alt="image" src="https://github.com/user-attachments/assets/e7f0f0ad-5594-44d0-918e-6eb08fe642a8" />
+
 
 ## Stretch Goals Implemented
 
-* ✅ Persistent Memory
-* ✅ Chart Computation Cache
-* ✅ Retrieval-Augmented Generation (RAG)
-* ✅ Golden Set Evaluation
+* Persistent Memory
+* Chart Computation Cache
+* Retrieval-Augmented Generation (RAG)
+* Golden Set Evaluation
 * ✅ Automated Scorecard
 
 ---
